@@ -1,16 +1,16 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-dev.firebaseapp.com/",
+  "url": "gdgarica.dev/",
   "analytics": "UA-43643469-8",
   "prefix": "/",
   "firebase": {
-    "appId": "",
-    "apiKey": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE",
-    "authDomain": "hoverboard-dev.firebaseapp.com",
-    "databaseURL": "https://hoverboard-dev.firebaseio.com",
-    "projectId": "hoverboard-dev",
-    "storageBucket": "hoverboard-dev.appspot.com",
-    "messagingSenderId": "1083195713896"
+    "apiKey": "AIzaSyCV6qexyVM8X1yrmM_RmQhHUSYPQG5ydtI",
+    "authDomain": "gdgarica-dev.firebaseapp.com",
+    "databaseURL": "https://gdgarica-dev.firebaseio.com",
+    "projectId": "gdgarica-dev",
+    "storageBucket": "gdgarica-dev.appspot.com",
+    "messagingSenderId": "50626854495",
+    "appId": "1:50626854495:web:9e8ae0dca7399b18cca5ea"
   },
-  "googleMapApiKey": ""
+  "googleMapApiKey": "AIzaSyBcPsxeY67N9BU-DaGXxgO-TLnmBJ0rm5E"
 }

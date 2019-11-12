@@ -16,7 +16,7 @@
       title="{$ heroSettings.cod.title $} | {$ title $}"
       description="{$ heroSettings.cod.metaDescription $}"
       active="[[active]]"
-    ></polymer-helmet>
+    ></polymer-helmet>-->
 
     <hero-block
       background-image="{$ heroSettings.cod.background.image $}"
@@ -28,19 +28,18 @@
       <p class="hero-description">{$ heroSettings.cod.description $}</p>
     </hero-block>
 
+    <!-- Fix this! -->
     <md-content md-source="[[source]]"></md-content>
 
     <footer-block></footer-block>
   </template>
 
   <script>
-
     // eslint-disable-next-line no-undef
     class CodPage extends Polymer.Element {
       static get is() {
         return 'cod-page';
       }
-
       static get properties() {
         return {
           active: Boolean,
@@ -51,7 +50,6 @@
         };
       }
     }
-
     window.customElements.define(CodPage.is, CodPage);
   </script>
 </dom-module>

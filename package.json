@@ -15,7 +15,6 @@
     "postinstall": "bower install",
     "start": "gulp serve",
     "start:prod": "cross-env BUILD_ENV=production gulp serve",
-    "lint": "gulp lint",
     "pretest": "npm run lint",
     "test": "echo \"No tests\""
   },

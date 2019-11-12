@@ -1,27 +1,27 @@
 {
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv",
+    "name": "GDG Arica",
+    "twitter": "gdg_arica",
     "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "url": "https://gdgarica.dev/"
   },
-  "startDate": "2017-10-013T09:00:00+03:00",
-  "endDate": "2017-10-14T19:00:00+03:00",
+  "startDate": "2019-11-30T16:00:00+03:00",
+  "endDate": "2019-11-30T19:00:00+03:00",
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "GDG Arica",
     "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
+    "backgroundColor": "#FFFFFF"
   },
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest17",
+  "hashtag": "GDGArica",
   "disabledSchedule": false,
   "navigation": [
     {
       "route": "home",
       "permalink": "/",
-      "label": "Home"
+      "label": "Inicio"
     },
     {
       "route": "speakers",
@@ -31,12 +31,12 @@
     {
       "route": "schedule",
       "permalink": "/schedule/",
-      "label": "Schedule"
+      "label": "Programa"
     },
     {
       "route": "team",
       "permalink": "/team/",
-      "label": "Team"
+      "label": "Equipo"
     },
     {
       "route": "blog",
@@ -46,7 +46,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "¡Logremos que grandes cosas ocurran!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -64,14 +64,14 @@
     "speakers": {
       "title": "Speakers",
       "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "description": "Asiste al evento y conoce a aquellos que hacen nuestra comunidad rica en contenido. <br><br>Vuelve de vez en cuando para ver nuevas incorporaciones o únete a nuestro canal de <a href='https://join.slack.com/t/gdgarica/shared_invite/enQtNzY4NzA5MDgxODc5LTJhNDBiN2U4YzQ2MTE5NjhjZDVmMDVlYjljYjdjMTkzZDIyMjVhMDRjOTRiNDA1YmM0NGJjOTNlNDE4N2MzMzM' target='_blank'>Slack</a> donde además podrás interactuar y comunicarte con otros miembros de la comunidad.",
       "background": {
         "color": "#FFF"
       },
       "fontColor": "#424242"
     },
     "previousSpeakers": {
-      "title": "Previous Speakers",
+      "title": "Speakers Anteriores",
       "metaDescription": "Check who was with us last years",
       "background": {
         "color": "#FFF"
@@ -79,7 +79,7 @@
       "fontColor": "#424242"
     },
     "schedule": {
-      "title": "Schedule",
+      "title": "Programa",
       "metaDescription": "Choose your sessions to visit",
       "background": {
         "color": "#fff"
@@ -87,7 +87,7 @@
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Team",
+      "title": "Equipo",
       "metaDescription": "Get more info about organizers",
       "background": {
         "color": "#fff"
@@ -103,7 +103,7 @@
       "fontColor": "#424242"
     },
     "cod": {
-      "title": "Code Of Conduct",
+      "title": "Código de Conducta",
       "metaDescription": "Lear more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
@@ -112,21 +112,21 @@
     }
   },
   "location": {
-    "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "label": "Ubicación",
+    "name": "Universidad de Tarapacá",
+    "city": "Arica",
+    "short": "Arica, Chile",
+    "address": "Arica, Chile",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": -18.4724735,
+      "longitude": -70.3241671,
+      "zoom": 7
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": -18.4724735,
+      "longitude": -70.3241671
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "Cafés, universidades, hoteles, teatros, una casa en la playa son buenos lugares para hacer comunidad y satisfacer las necesidades de los eventos. En esta sección encontrarás la ubicación exacta para el evento una vez sea confirmada."
   },
   "mediaQueries": {
     "xs": {
@@ -147,24 +147,20 @@
   "socialNetwork": {
     "follow": [
       {
-        "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/gdgarica/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
+        "url": "https://twitter.com/gdg_arica"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "url": "https://www.instagram.com/gdgarica"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://www.youtube.com/channel/UCWIILJOtO62KAB7y-RfPlXw"
       }
     ],
     "share": [
@@ -176,31 +172,29 @@
         "name": "twitter",
         "url": "https://twitter.com/intent/tweet?text="
       }
+    ],
+    "join": [
+      {
+        "name": "slack",
+        "url": "http://bit.ly/slack_gdgarica"
+      },
+      {
+        "name": "meetup",
+        "url": "https://www.meetup.com/es/gdgarica/"
+      }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "gdg.arica@gmail.com",
   "signInProviders": {
     "providersData": [
       {
         "name": "google",
-        "label": "Sign in with Google",
+        "label": "Iniciar Sesión con Google",
         "url": "https://accounts.google.com"
-      },
-      {
-        "name": "facebook",
-        "label": "Sign in with Facebook",
-        "url": "https://www.facebook.com"
-      },
-      {
-        "name": "twitter",
-        "label": "Sign in with Twitter",
-        "url": "https://twitter.com"
       }
     ],
     "allowedProvidersUrl": [
-      "https://accounts.google.com",
-      "https://www.facebook.com",
-      "https://twitter.com"
+      "https://accounts.google.com"
     ]
   },
   "contentLoaders": {

@@ -135,6 +135,7 @@
 
     <div class="container">
       <template is="dom-repeat" items="[[team]]" as="team">
+        
         <div class="team-title">[[team.title]]</div>
 
         <div class="team-block">
@@ -142,7 +143,7 @@
             <div class="member" layout horizontal>
               <plastic-image
                 class="photo"
-                srcset="[[member.photoUrl]]"
+                srcset="[[member.photo]]"
                 sizing="cover"
                 lazy-load preload fade>
               </plastic-image>

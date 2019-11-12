@@ -14,8 +14,13 @@
         float: left;
       }
 
-      .cod {
-        display: block;
+      .mini {
+        height: 18px;
+        --iron-icon-height: 15px;
+        --iron-icon-width: 15px;
+        padding-bottom: 3px;
+        --iron-icon-fill-color: #764dbe;
+
       }
 
       .nav-inline {
@@ -35,6 +40,7 @@
         color: var(--footer-text-color);
         padding-bottom: 2px;
         text-decoration: none;
+        white-space: normal
       }
 
       a:hover {
@@ -60,24 +66,23 @@
           display: inline-flex;
         }
       }
+
     </style>
 
     <div class="nav-inline" layout flex>
 
-      <a href="{$ organizer.url $}" target="_blank" rel="noopener noreferrer">
-        <plastic-image
-          class="footer-logo"
-          srcset="../../images/organizer-logo.svg"
-          sizing="contain"
-          alt="{$ organizer.name $}"
-          lazy-load
-        ></plastic-image>
-      </a>
+
+      <plastic-image class="footer-logo" srcset="../../images/logo-monochrome.png" sizing="contain"
+        alt="{$ organizer.name $}" lazy-load></plastic-image>
+
 
       <div class="copyright">
-        &copy; [[_getYear()]] Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
-        Hoverboard</a> &middot; <a class="cod" href="/cod">{$ codeOfConduct
-        $}</a>
+        <!--<a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
+          Hoverboard</a> &middot; -->
+          <a class="cod" href="/cod">{$ codeOfConduct $}</a>
+        <br>
+        <div style="color: #9e9e9e">&copy; [[_getYear()]] &middot; Made with <iron-icon class="mini"
+            icon="hoverboard:favorite"></iron-icon> in Arica.</div>
 
       </div>
     </div>
@@ -86,7 +91,6 @@
   </template>
 
   <script>
-
     class FooterNav extends Polymer.Element {
       static get is() {
         return 'footer-nav';
@@ -101,4 +105,3 @@
 
   </script>
 </dom-module>
-

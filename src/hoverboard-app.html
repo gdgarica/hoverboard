@@ -92,7 +92,7 @@
       }
 
       .toolbar-logo {
-        --iron-image-height: 32px;
+        --iron-image-height: 20px;
       }
 
       app-header-layout {
@@ -144,7 +144,7 @@
 
       <app-drawer id="drawer" slot="drawer" opened="[[ui.isDrawerOpened]]" swipe-open>
         <app-toolbar layout vertical start>
-          <plastic-image class="toolbar-logo" srcset="/images/logo-monochrome.svg" alt="{$ title $}"></plastic-image>
+          <plastic-image class="toolbar-logo" srcset="/images/log-menu.png" alt="{$ title $}"></plastic-image>
           <h2 class="dates">{$ dates $}</h2>
           <h3 class="location">{$ location.short $}</h3>
         </app-toolbar>
@@ -243,6 +243,10 @@
             data-route="cod"
             data-path="pages/cod-page.html"
           ></cod-page>
+          <about-page
+            data-route="about"
+            data-path="pages/about-page.html"
+          ></about-page>
         </iron-lazy-pages>
 
       </app-header-layout>
@@ -384,7 +388,7 @@
       ready() {
         super.ready();
         // eslint-disable-next-line no-console
-        console.log('Hoverboard v2 is ready!');
+        // console.log('Hoverboard v2 is ready!');
         this.removeAttribute('unresolved');
         this._ensureLazyLoaded();
         userActions.updateUser();

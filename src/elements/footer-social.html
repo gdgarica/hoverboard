@@ -36,7 +36,7 @@
         display: inline-block;
       }
 
-     .social-group.share-block {
+      .social-group.share-block {
         margin-bottom: 17px;
       }
 
@@ -142,27 +142,13 @@
       <div class="title">{$ share $}</div>
       <div class="nav-inline">
         <div class="share">
-          <paper-icon-button
-            class="share-facebook"
-            icon="hoverboard:facebook"
-            share="facebook"
-            on-tap="share"
-            ga-on="click"
-            ga-event-category="social"
-            ga-event-action="share"
-            ga-event-label="facebook">
+          <paper-icon-button class="share-facebook" icon="hoverboard:facebook" share="facebook" on-tap="share"
+            ga-on="click" ga-event-category="social" ga-event-action="share" ga-event-label="facebook">
           </paper-icon-button>
         </div>
         <div class="share">
-          <paper-icon-button
-            class="share-twitter"
-            icon="hoverboard:twitter"
-            share="twitter"
-            on-tap="share"
-            ga-on="click"
-            ga-event-category="social"
-            ga-event-action="share"
-            ga-event-label="twitter">
+          <paper-icon-button class="share-twitter" icon="hoverboard:twitter" share="twitter" on-tap="share"
+            ga-on="click" ga-event-category="social" ga-event-action="share" ga-event-label="twitter">
           </paper-icon-button>
         </div>
       </div>
@@ -171,28 +157,40 @@
     <div class="social-group blog">
       <div class="title">
         {$ followOur $}
-        <a href="{$ organizer.blog $}" {% if organizer.blog.startsWith('http') %} target="_blank" rel="noopener noreferrer" {% endif %}>{$ footer.blog $}</a>
+        <a href="{$ organizer.blog $}" {% if organizer.blog.startsWith('http') %} target="_blank"
+          rel="noopener noreferrer" {% endif %}>{$ footer.blog $}</a>
       </div>
+    </div>
+
+    <div class="social-group social-networks" style="margin-bottom: 3px">
+      <div class="title">{$ joinUs $} </div>
+      <ul class="nav-inline" style="margin-right: 50px">
+        {% for socFollow in socialNetwork.join %}
+        <li>
+          <a href="{$ socFollow.url $}" target="_blank" rel="noopener noreferrer" ga-on="click"
+            ga-event-category="social" ga-event-action="follow" ga-event-label="{$ socFollow.name $}">
+            <paper-icon-button icon="hoverboard:{$ socFollow.name $}"></paper-icon-button>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
 
     <div class="social-group social-networks">
       <div class="title">{$ followUs $} </div>
       <ul class="nav-inline">
         {% for socFollow in socialNetwork.follow %}
-          <li>
-            <a href="{$ socFollow.url $}"
-                target="_blank"
-                rel="noopener noreferrer"
-                ga-on="click"
-                ga-event-category="social"
-                ga-event-action="follow"
-                ga-event-label="{$ socFollow.name $}">
-              <paper-icon-button icon="hoverboard:{$ socFollow.name $}"></paper-icon-button>
-            </a>
-          </li>
+        <li>
+          <a href="{$ socFollow.url $}" target="_blank" rel="noopener noreferrer" ga-on="click"
+            ga-event-category="social" ga-event-action="follow" ga-event-label="{$ socFollow.name $}">
+            <paper-icon-button icon="hoverboard:{$ socFollow.name $}"></paper-icon-button>
+          </a>
+        </li>
         {% endfor %}
       </ul>
     </div>
+
+
 
     <div class="social-group email">
       <div class="title">
@@ -203,14 +201,14 @@
   </template>
 
   <script>
-
     // eslint-disable-next-line no-undef
     class FooterSocial extends ShareMixin(Polymer.Element) {
-      static get is() {return 'footer-social';}
+      static get is() {
+        return 'footer-social';
+      }
     }
 
     window.customElements.define(FooterSocial.is, FooterSocial);
 
   </script>
 </dom-module>
-

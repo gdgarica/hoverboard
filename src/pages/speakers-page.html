@@ -177,7 +177,10 @@
       active="[[active]]"
     >
       <div class="hero-title highlight-font">{$ heroSettings.speakers.title $}</div>
-      <p class="hero-description">{$ heroSettings.speakers.description $}</p>
+      <marked-element class="description" markdown="{$ heroSettings.speakers.description $}">
+        <div slot="markdown-html"></div>
+      </marked-element>
+      <!-- <p class="hero-description">{$ heroSettings.speakers.description $}</p> -->
     </hero-block>
 
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>

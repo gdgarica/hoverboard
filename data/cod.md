@@ -1,52 +1,76 @@
-### 1. Purpose
+## 1. Propósito
 
-A primary goal of [GDG Lviv](http://lviv.gdg.org.ua/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
-GDG Lviv prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
+Uno de los principales objetivos de la comunidad es incluir al mayor número de miembros, con los perfiles más variados y diversos posibles. Como tal, estamos comprometidos a proporcionar un ambiente amigable, seguro y acogedor para todos, sin distinción de género, orientación sexual, capacidades, etnicidad, estatus socioeconómico o religión. GDG Arica se enorgullece de ser una comunidad abierta, respetuosa e inclusiva. Eso significa que el comportamiento irrespetuoso no está permitido en los eventos del mismo.
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
-We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.
+Este código de conducta describe nuestras expectativas para todos aquellos que participan en nuestra comunidad, así como las consecuencias de un comportamiento inaceptable. 
 
-### 2. Open [Source/Culture/Tech] Citizenship
+Invitamos a todos aquellos que participan a que nos ayuden a crear un ambiente seguro y de experiencias positivas para todos.
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. Communities mirror the societies in which they exist, and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+## 2. Cultura abierta
 
-### 3. Expected Behavior
+Un objetivo adicional de este código de conducta es aumentar la cultura abierta alentando a los participantes a reconocer y fortalecer las relaciones entre nuestras acciones y sus efectos en nuestra comunidad.
 
-The following behaviors are expected and requested of all community members:
+Las comunidades reflejan las sociedades en las que existen, y la acción positiva es esencial para contrarrestar las muchas formas de desigualdad y abuso de poder que existen.
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-- Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before a conflict.
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-- Be mindful of your surroundings and your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+Si ves a alguien que está haciendo un esfuerzo adicional por garantizar que nuestra comunidad sea acogedora, amigable, y anima a todos los participantes a contribuir en la mayor medida posible, nos gustaría saberlo.
 
-### 4. Unacceptable Behavior
+## 3. Comportamiento esperado
 
-The following actions are considered harassment and are unacceptable within our community:
+Se esperan y solicitan los siguientes comportamientos por parte de los miembros de la comunidad:
 
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people’s personally identifying information ("doxing").
-- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
-- Sustained disruption of community events, including talks and, presentations.
+- Participar de manera activa. Al hacerlo contribuye al bienestar y prosperidad de la comunidad.
+- Practicar la consideración y el respeto en su discurso y acciones.
+- Intentar la colaboración ante el conflicto.
+- Abstenerse de comportamientos denigrantes, discriminatorios o acosadores.
+- Sea consciente de su entorno y de sus compañeros participantes. Alerte a los organizadores si observa una situación peligrosa, a alguien en peligro o violaciones de este código de conducta, incluso si parecen insignificantes.
 
-###  5. Consequences of Unacceptable Behavior
+## 4. Comportamiento inaceptable
 
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event.
+Los siguientes comportamientos se consideran acoso y son inaceptables dentro de nuestra comunidad:
 
-### 6. Scope
+- Violencia, amenazas violentas o lenguaje violento dirigido hacia otra persona.
+- Lenguaje y bromas sexistas, racistas, homofóbicas, transfóbicas o discriminatorias.
+- Publicar o exhibir material sexualmente explícito o violento.
+- Publicar o amenazar con publicar información de identificación personal de otras personas.
+- Insultos, particularmente aquellos relacionados con el género, la orientación sexual, la raza, la religión o la discapacidad.
+- Publicar o exhibir fotografías o grabaciones inapropiadas.
+- Proposiciones sexuales indeseadas. Esto incluye comentarios o chistes sexualizados; contacto físico inapropiado o insinuaciones sexuales.
+- Intimidación, acoso o seguimiento deliberado (en línea o en persona).
+- Apoyar o alentar cualquiera de los comportamientos mencionados anteriormente.
+- Interrupción sostenida de eventos comunitarios, incluyendo charlas y presentaciones.
 
-We expect all community participants to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications about community business. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
+##  5. Consecuencias de comportamiento inaceptable
 
-### 7. Contact info
+El comportamiento inaceptable de cualquier miembro de la comunidad, incluidos los patrocinadores, speakers y aquellos con autoridad de toma decisiones, no será tolerado.
 
-- Oleh Zasadnyy, +38 093 486 64 60, [o.zasadnyy@gdg.org.ua](mailto:o.zasadnyy@gdg.org.ua)
-- Sofiya Huts, +38 093 486 14 25, [s.huts@gdg.org.ua](mailto:s.huts@gdg.org.ua)
+Se espera que cualquier persona a la que se le pida que detenga su comportamiento inaceptable cumpla inmediatamente.
+
+Si un miembro de la comunidad se involucra en un comportamiento inaceptable, los organizadores pueden tomar cualquier acción que consideren apropiada, hasta e incluyendo una prohibición temporal o expulsión permanente de la comunidad sin previo aviso (y sin reembolso en el caso de un evento pagado).
+
+## 6. Alcance
+
+Esperamos que todos los participantes de la comunidad cumplan con este código de conducta en todos los espacios de la comunidad, tanto en línea como en persona, y en todas las comunicaciones personales que involucren a la comunidad.
+
+Este código de conducta y sus procedimientos relacionados también se aplican a comportamientos inaceptables que ocurran fuera del alcance de las actividades de la comunidad cuando dichos comportamientos tengan el potencial de afectar de forma adversa la seguridad y el bienestar de los miembros de la comunidad.
+
+## 7. Presentación de Informes
+
+Si eres víctima o testigo de un comportamiento inaceptable, o tienes alguna otra inquietud, notifica a cualquier organizador(a) de la comunidad tan pronto como sea posible. También puedes crear un reporte, o comunicarte con el equipo organizador en gdg.arica@gmail.com.
+
+Los organizadores están disponibles para ayudar a los miembros de la comunidad a comprometerse con el cumplimiento de las leyes locales, la aplicación de la ley o para ayudar de otra manera a que aquellos que experimenten comportamientos inaceptables. En el contexto de los eventos en persona, los organizadores también proporcionarán acompañantes según lo desee la persona que experimente algún inconveniente.
+
+## 8. Abordar quejas
+
+Si crees que has sido acusado falsa o injustamente de violar este código de conducta, debes notificar a los organizadores con una descripción concisa de tu queja. Tu queja será gestionada de acuerdo con nuestras políticas vigentes.
+
+## 9. ¿Necesitas ayuda?
+
+Si tienes preguntas, comentarios, preocupaciones, o quieres reportar algo más que te haga sentir incómodo o inseguro, puedes usar los siguientes canales:
+
+gdg.arica@gmail.com
+
+Envía un mensaje directo a las siguientes cuentas de Twitter:
+- Cristian Flores - [@floxcristian](https://twitter.com/floxcristian)
+- Mario Guerrero - [@Pab1oCarvajal](https://www.meetup.com/GDG-Lviv/)
+- Pablo Carvajal - [@Pab1oCarvajal](https://twitter.com/Pab1oCarvajal)
+- GDG Arica - [@gdg_arica](https://twitter.com/gdg_arica)

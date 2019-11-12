@@ -1,29 +1,31 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Be a hero. Be a GDG!",
-  "image": "images/social-share.jpg",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
+  "title": "GDG Arica",
+  "description": "Iniciativa promovida por Google para ayudar e impulsar a la comunidad tecnológica de Arica.",
+  "image": "images/gdgarica-wall.png",
+  "keywords": "arica, event, gdg, gdgarica, comunidad, community, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "dates": "Noviembre 09, 2019",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
-  "share": "Share",
-  "followOur": "Follow our",
-  "followUs": "Follow us",
-  "emailUs": "Email us",
+  "share": "Compartir",
+  "followOur": "Sígue nuestro",
+  "followUs": "Síguenos",
+  "joinUs": "Únete a la comunidad",
+  "emailUs": "Escríbenos",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
-  "viewHighlights": "View Highlights",
-  "offlineMessage": "You can still work offline.",
-  "cachingComplete": "Caching complete! Future visits will work offline.",
-  "newVersionAvailable": "A new version of this app is available.",
-  "refresh": "Refresh",
+  "buyTicket": "Reservar Cupo",
+  "signIn": "Ingresar",
+  "signOut": "Salir",
+  "viewHighlights": "Ver Destacados",
+  "offlineMessage": "Sin conexión a Internet.",
+  "cachingComplete": "Caché completo! Las futuras visitas funcionarán sin conexión.",
+  "newVersionAvailable": "Nueva versión disponible.",
+  "refresh": "Actualizar",
   "position": "Position",
   "country": "Country",
   "time": "Time",
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
+  "event": "1° Meetup GDG Arica",
   "footer": {
     "blog": "Blog"
   },
@@ -33,11 +35,11 @@
   },
   "footerRelBlock": [
     {
-      "title": "About",
+      "title": "Acerca de",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "GDG Arica",
+          "url": "https://www.gdgarica.dev/",
           "newTab": true
         },
         {
@@ -51,42 +53,42 @@
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
-          "newTab": true
+          "name": "Equipo Organizador",
+          "url": "/team/",
+          "newTab": false
         }
       ]
     },
     {
-      "title": "Explore Past DevFests",
+      "title": "Developer Console",
       "links": [
         {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "name": "Google API Console",
+          "url": "https://console.developers.google.com/",
           "newTab": true
         },
         {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.firebaseapp.com//",
+          "name": "GCP Console",
+          "url": "https://console.cloud.google.com/",
           "newTab": true
         },
         {
-          "name": "DFUA 2015",
+          "name": "Google Play Console",
           "url": "https://dfua15.firebaseapp.com/",
           "newTab": true
         },
         {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.firebaseapp.com/",
+          "name": "Firebase Console",
+          "url": "https://console.firebase.google.com/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Event Resources",
+      "title": "Recursos",
       "links": [
         {
-          "name": "Partnership Proposition",
+          "name": "Propuesta de Sponsorship",
           "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
           "newTab": true
         },
@@ -113,51 +115,52 @@
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "codeOfConduct": "Code of Conduct",
+  "subscribeNote": "Recibir noticias y actualizaciones.",
+  "codeOfConduct": "Código de Conducta",
   "aboutBlock": {
-    "title": "What you need to know, before you ask.",
+    "title": "Nuestra comunidad",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
-        "label": "Explore featured session",
-        "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "description": "Somos una comunidad geek, abierta y sin fines de lucro que comparte e intercambia conocimiento y experiencias acerca de tecnologías de Google y otras entidades relacionadas con el desarrollo web, desarrollo móvil, machine learning, inteligencia artificial, seguridad informática, entre otros.",
+        "label": "Leer más",
+        "link": "/about"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
-        "youtubeId": "TdpbgRgz6eE"
+        "description": "En la plataforma de <a href='https://www.meetup.com/es/' target='_blank'>Meetup</a> podrás ver nuestro calendario de eventos y confirmar tu asistencia.",
+        "label": "Unirse",
+        "youtubeId": "TdpbgRgz6eE",
+        "url": "https://www.meetup.com/es/gdgarica/"
       }
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
-        "number": "900"
+        "label": "Asistentes",
+        "number": "30+"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Workshops",
+        "number": "0"
       },
       "sessions": {
-        "label": "Sessions",
-        "number": "50"
+        "label": "Charlas",
+        "number": "3"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Meetups",
+        "number": "1"
       }
     }
   },
   "ticketsBlock": {
-    "title": "Tickets",
-    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "title": "Entradas",
+    "ticketsDetails": "Los cupos son limitados, por lo que confirmar tu participación en última instancia puede resultar en quedar en la lista de espera.",
     "soldOut": "You missed it!",
     "notAvailableYet": "Not available yet",
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
-    "button": "Become a partner",
+    "title": "Patrocinadores",
+    "button": "Ser patrocinador",
     "form": {
       "title": "Become a partner!",
       "submitLabel": "Submit",
@@ -167,20 +170,20 @@
     "toast": "We will contact you soon!"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "Videos destacados",
     "callToAction": {
-      "label": "See all videos",
+      "label": "Ver todos los videos",
       "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
     }
   },
   "blog": {
     "published": "Published",
-    "suggested": "Up next"
+    "suggested": "Seguir leyendo"
   },
   "latestPostsBlock": {
-    "title": "The latest news",
+    "title": "Últimas noticias",
     "callToAction": {
-      "label": "View all stories",
+      "label": "Ver todas las noticias",
       "link": "/blog/"
     }
   },
@@ -192,65 +195,91 @@
   "speakersBlock": {
     "title": "Speakers",
     "callToAction": {
-      "label": "View all speakers",
+      "label": "Ver todos",
       "link": "/speakers/"
     }
   },
   "previousSpeakersBlock": {
-    "title": "Previous speakers",
+    "title": "Speakers anteriores",
     "callToAction": {
-      "label": "View all",
+      "label": "Ver todos",
       "link": "/previous-speakers/"
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "Momentos #GDGArica",
+    "description": "Las comunidades generan grandes momentos y muchas emociones. Únete y vive la experiencia de nuestros eventos que buscan potenciar el ecosistema tecnológico de la zona.",
     "callToAction": {
-      "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "label": "Ver fotos",
+      "link": "https://photos.app.goo.gl/KZMivs2bk8Xq2Mey5"
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Ubicación"
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
-      "label": "Subscribe"
+      "description": "Recibe notificaciones sobre eventos y novedades importantes",
+      "label": "Suscribirse"
     },
-    "yourEmail": "Your email",
-    "emailAddress": "Email Address",
-    "firstName": "First Name",
-    "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
-    "emailRequired": "Please enter a valid email address.",
-    "subscribe": "Subscribe",
-    "subscribed": "Subscribed",
-    "close": "Close",
+    "yourEmail": "Email",
+    "emailAddress": "Email",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "formTitle": "Reciba noticias sobre la comunidad GDG Arica en su bandeja de entrada.",
+    "emailRequired": "Ingrese un email válido.",
+    "subscribe": "Suscribirse",
+    "subscribed": "Suscrito",
+    "close": "Cerrar",
     "generalError": "An error has occurred. Please, try again later.",
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Google es conocido en todo el mundo. Todos buscan con Google, navegan con Google Maps y se escriben por Gmail. Para el usuario común, estos son servicios que simplemente y sencillamente funcionan, pero no para nosotros. Los desarrolladores ven mucho más: código fuente, lenguajes de programación, APIs, problemas de escalabilidad, pilas de tecnología complejas, algoritmos y mucho más. Y de eso se trata el GDG.<br><br> [Google Developers Group (GDG) Arica](/) es una comunidad geek abierta y voluntaria que crea proyectos apasionantes y comparte experiencias sobre las tecnologías de Google y otras entidades.<br><br> Nuestro objetivo es organizar espacios para conectar a los mejores expertos de la industria con la audiencia de Arica y sus alrededores, para impulsar el desarrollo personal y profesional de personas de todas las edades mediante el uso apropiado de la tecnología.",
+    "roles": [
+      {
+        "title": "Organizadores",
+        "members": [
+          {
+            "name": "Cristian Flores",
+            "photo": "/images/team/cristian_flores.jpg",
+            "socials": [
+              {
+                "icon": "facebook",
+                "link": "https://www.facebook.com/floxcristian",
+                "name": "Facebook"
+              },
+              {
+                "icon": "twitter",
+                "link": "https://twitter.com/floxcristian",
+                "name": "Twitter"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Voluntarios"
+      }
+    ]
   },
   "schedule": {
-    "saveSessionsSignedOut": "Sign in to save sessions"
+    "saveSessionsSignedOut": "Inicia sesión para guardar sesiones"
   },
   "sessionDetails": {
     "contentLevel": "Content level",
-    "viewPresentation": "View presentation",
-    "viewVideo": "View video",
+    "viewPresentation": "Ver presentation",
+    "viewVideo": "Ver video",
     "speakers": "Speakers"
   },
   "speakerDetails": {
     "sessions": "Sessions"
   },
   "notifications": {
-    "default": "Enable notifications",
+    "default": "Activar notificaciones",
     "enabled": "We will miss you but you can unsubscribe anytime",
     "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
-    "subscribe": "Subscribe",
+    "subscribe": "Suscribirse",
     "unsubscribe": "Unsubscribe",
     "enable": {
       "label": "Enable",
@@ -264,28 +293,19 @@
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "title": "¿Qué es un GDG?",
+        "description": "Los Google Developer Groups (GDGs) son entidades sin ánimo de lucro creadas con el objetivo de mejorar la comunidad de entusiastas tecnológicos y aumentar el conocimiento y las relaciones entre las personas que se dedican a esta área. GDG Arica es la rama local de esta comunidad.",
         "callToAction": {
-          "label": "Open team page",
+          "label": "Leer más",
           "link": "/team"
         }
       },
       {
-        "title": "What is GDG?",
-        "description": "Google Developers Groups (GDGs) are communities of volunteers who create exciting projects and share experiences about Google technologies.",
+        "title": "¿Qué hacemos?",
+        "description": "Creamos eventos con el ánimo de difundir el conocimiento sobre tecnología y mejorar el panorama tecnológico de la ciudad. Además, la gran mayoría de estos eventos son libres y gratuitos, pues creemos que el conocimiento no debe enfrentarse a mayor barrera que el interés del que quiere aprenderlo.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Leer más",
           "link": "https://developers.google.com/groups/",
-          "newTab": true
-        }
-      },
-      {
-        "title": "What is DevFest?",
-        "description": "DevFests are community-led developer events hosted by Google Developer Groups around the globe.",
-        "callToAction": {
-          "label": "Read more",
-          "link": "https://devfest.withgoogle.com/",
           "newTab": true
         }
       }
@@ -300,13 +320,13 @@
     }
   },
   "filters": {
-    "title": "Filters",
-    "results": "Results",
+    "title": "Filtros",
+    "results": "Resultados",
     "tags": "Tags",
     "complexity": "Complexity",
-    "clear": "Clear all"
+    "clear": "Limpiar"
   },
   "addToHomeScreen": {
-    "cta": "Add to Home Screen"
+    "cta": "Instalar"
   }
 }

@@ -1,71 +1,73 @@
 <!doctype html>
-<html itemscope itemtype="http://schema.org/Event" lang="en">
+<html lang="en">
 
 <head>
   <base href="{$ basepath $}">
   <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes" name="viewport">
-  <meta content="{$ description $}" name="description">
-  <meta content="{$ keywords $}" name="keywords">
-  <meta content="{$ organizer.name $}" name="author">
-  <meta content="Project Hoverboard" name="generator">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="{$ description $}">
+  <meta name="keywords" content="{$ keywords $}">
+  <meta name="author" content="{$ organizer.name $}">
+  <meta name="generator" content="Project Hoverboard">
 
   <title>{$ title $}</title>
 
-  <link href="{$ url $}" rel="canonical">
+  <link rel="canonical" href="{$ url $}">
 
-  <link href="images/favicon.ico" rel="icon">
+  <link rel="icon" href="images/favicon.ico">
 
-  <meta content="{$ webapp.themeColor $}" name="theme-color">
-  <link href="manifest.json" rel="manifest">
+  <meta name="theme-color" content="{$ webapp.themeColor $}">
+  <link rel="manifest" href="manifest.json">
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta content="yes" name="mobile-web-app-capable">
   <!-- fallback for manifest.json -->
-  <meta content="{$ title $}" name="application-name">
+  <meta name="application-name" content="{$ title $}">
   <!-- fallback for manifest.json -->
 
   <!-- Add to homescreen for Safari on iOS -->
-  <meta content="yes" name="apple-mobile-web-app-capable">
-  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-  <meta content="{$ title $}" name="apple-mobile-web-app-title">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="{$ title $}">
 
-  <!-- Homescreen icons. -->
-  <link href="images/manifest/icon-48.png" rel="apple-touch-icon">
-  <link href="images/manifest/icon-72.png" rel="apple-touch-icon" sizes="72x72">
-  <link href="images/manifest/icon-96.png" rel="apple-touch-icon" sizes="96x96">
-  <link href="images/manifest/icon-144.png" rel="apple-touch-icon" sizes="144x144">
-  <link href="images/manifest/icon-192.png" rel="apple-touch-icon" sizes="192x192">
+  <!-- Homescreen icons for iOS. -->
+  <link rel="apple-touch-icon" href="images/manifest/icon-48.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/manifest/icon-32.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/manifest/icon-72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="images/manifest/icon-96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/manifest/icon-144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/manifest/icon-192.png">
 
   <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta content="images/manifest/icon-144.png" name="msapplication-TileImage">
-  <meta content="#00aba9" name="msapplication-TileColor">
-  <meta content="no" name="msapplication-tap-highlight">
+  <meta name="msapplication-TileImage" content="images/manifest/icon-144.png">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-tap-highlight" content="no">
 
   <!-- G+ sharing meta data -->
-  <meta content="{$ title $}" itemprop="name">
-  <meta content="{$ description $}" itemprop="description">
-  <meta content="{$ image if image.startsWith('http') else (url + image) $}" itemprop="image">
-  <meta content="{$ startDate $}" itemprop="startDate">
-  <meta content="{$ endDate $}" itemprop="endDate">
+  <meta itemprop="name" content="{$ title $}">
+  <meta itemprop="description" content="{$ description $}">
+  <meta itemprop="image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta itemprop="startDate" content="{$ startDate $}">
+  <meta itemprop="endDate" content="{$ endDate $}">
+  <meta itemprop="location" content="{$ startDate $}">
 
   <!-- Facebook sharing meta data -->
-  <meta content="{$ title $}" property="og:title">
-  <meta content="{$ title $}" property="og:site_name">
-  <meta content="website" property="og:type">
-  <meta content="{$ url $}" property="og:url">
-  <meta content="{$ description $}" property="og:description">
-  <meta content="Event" property="og:type">
-  <meta content="{$ image if image.startsWith('http') else (url + image) $}" property="og:image">
-  <meta content="image/jpeg" property="og:image:type" />
+  <meta property="og:title" content="{$ title $}">
+  <meta property="og:site_name" content="Google Developer Group Arica" >
+  <meta property="og:type" content="website" >
+  <meta property="og:url" content="{$ url $}">
+  <meta property="og:description" content="{$ description $}">
+  <meta property="og:type" content="Comunidad">
+  <meta property="og:image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta property="og:image:type" content="image/jpeg"/>
 
   <!-- Twitter meta data -->
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="@{$ organizer.twitter $}" name="twitter:creator">
-  <meta content="{$ title $}" name="twitter:title">
-  <meta content="{$ description $}" name="twitter:description">
-  <meta content="{$ image if image.startsWith('http') else (url + image) $}" name="twitter:image">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@{$ organizer.twitter $}" >
+  <meta name="twitter:title" content="{$ title $}">
+  <meta name="twitter:description" content="{$ description $}">
+  <meta name="twitter:image" content="{$ image if image.startsWith('http') else (url + image) $}">
   <meta name="twitter:label1" value="{$ location.label $}">
   <meta name="twitter:data1" value="{$ location.name $}">
   <meta name="twitter:label2" value="">
@@ -76,6 +78,45 @@
   <link href="https://fcm.googleapis.com" rel="preconnect">
   <link href="https://firestore.googleapis.com" rel="preconnect">
   <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "1° Meetup GDG Arica",
+      "startDate": "2019-11-09T14:00",
+      "endDate": "2019-11-09T19:00",
+      "location": {
+        "@type": "Place",
+        "name": "University of Tarapacá",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "18 de Septiembre 2222",
+          "addressLocality": "Arica, Chile",
+          "postalCode": "1000000",
+          "addressRegion": "Arica y Parinacota",
+          "addressCountry": "CL"
+        }
+      },
+      "image": [
+        "https://example.com/photos/1x1/photo.jpg",
+        "https://example.com/photos/4x3/photo.jpg",
+        "https://example.com/photos/16x9/photo.jpg"
+       ],
+      "description": "The Adventures of Kira and Morrison is coming to Snickertown in a can’t miss performance.",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.example.com/event_offer/12345_201803180430",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2019-10-20T16:00"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Kira and Morrison"
+      }
+    }
+  </script>
   <script>
 
     window.Polymer = { rootPath: '{$ basepath $}' };
@@ -118,7 +159,7 @@
                 console.warn('DB offline support not available'); // eslint-disable-line no-console
               });
           // eslint-disable-next-line no-console
-          console.log('Firebase App is ready!');
+          // console.log('Firebase App is ready!');
         });
 
     </script>
